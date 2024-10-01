@@ -1,0 +1,6 @@
+import streamlit
+from file_read import fit
+
+fit("data/Zwift_Race_Zwift_Racing_League_Open_EMEA_W_Northern_West_Division_1_B_on_Country_to_Coastal_in_Makuri_Islands.fit")
+
+
