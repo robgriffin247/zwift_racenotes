@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.graph_objs as go
 from file_read.fit_reader import fit_df
 
-dt = fit_df("data/Zwift_Race_Zwift_Racing_League_Open_EMEA_W_Northern_West_Division_1_B_on_Country_to_Coastal_in_Makuri_Islands.fit")
+dt = fit_df("data/Makuri_Islands__Country_to_Coastal.fit")
 
 sectors = [{"sector":"Lead in", "sector_type":"orange", "start":0, "end":200},
            {"sector":"Village Sprint", "sector_type":"green", "start":1600, "end":1700},
